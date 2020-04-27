@@ -1,0 +1,26 @@
+{
+  "name": "js-to-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-json": "node src/helper/generate-json.js --path=${npm_config_path}",
+    "argument": "echo \"The value of --foo is '${npm_config_foo}'\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanuelgittens/js-to-json.git"
+  },
+  "author": "Imanuel Gittens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imanuelgittens/js-to-json/issues"
+  },
+  "homepage": "https://github.com/imanuelgittens/js-to-json#readme",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15",
+    "yargs": "^15.3.1"
+  }
+}
